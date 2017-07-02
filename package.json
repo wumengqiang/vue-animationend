@@ -1,0 +1,32 @@
+{
+  "name": "vue-animationend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vue-animationend.js",
+  "module": "./src/index.js",
+  "jsnext:main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wumengqiang/vue-animationend.git"
+  },
+  "keywords": [
+    "vue",
+    "animationend",
+    "webkitAnimationEnd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wumengqiang/vue-animationend/issues"
+  },
+  "homepage": "https://github.com/wumengqiang/vue-animationend#readme",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}

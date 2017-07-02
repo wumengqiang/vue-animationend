@@ -1,0 +1,19 @@
+@import "common/mixins";
+.demo {
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    &.animation {
+        @include animation(translate 2s)
+    }
+}
+
+@include keyframes(translate) {
+    0% {
+        @include transform(translateX(0))
+    }
+
+    100% {
+        @include transform(translateX(200px));
+    }
+}
