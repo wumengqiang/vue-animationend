@@ -24,7 +24,7 @@ var binder = {
             return;
         }
         if (document.addEventListener) {
-            document.addEventListener(this.eventName, _bind.value);
+            el.addEventListener(this.eventName, _bind.value);
         } else {
             this.bindError = true;
             console.error("document.addEventListener not support");
@@ -32,7 +32,7 @@ var binder = {
     },
     unbind: function unbind(el, bind, vnode) {
         if (!this.bindError) {
-            document.removeEventListener(this.eventName, bind.value);
+            el.removeEventListener(this.eventName, bind.value);
         }
     }
 };
